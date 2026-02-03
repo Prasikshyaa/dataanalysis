@@ -1,0 +1,23 @@
+{
+  "population_highlights": {
+    "total_population": {
+      "value": 29164578,
+      "change_since_2011": 2670074
+    },
+    "sex_ratio": {
+      "value": 95.59,
+      "unit": "male_per_100_female",
+      "change_since_2011": 1.43
+    },
+    "population_density": {
+      "value": 198,
+      "unit": "persons_per_sq_km",
+      "change_since_2011": 18
+    },
+    "annual_population_growth_rate": {
+      "value": 0.92,
+      "unit": "percent",
+      "change_since_2011": 0.43
+    }
+  }
+}
