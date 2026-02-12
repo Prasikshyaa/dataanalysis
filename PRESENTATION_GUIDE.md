@@ -128,7 +128,9 @@
 ### SLIDE 1: Background + The Problem Is...
 
 **Opening Hook (pick one):**
-> "Imagine getting your first salary... and by the 20th of the month, it's all gone. You're not sure where it went. You know you should save, but you don't know how, how much, or where. This is the reality for 7 out of 10 young Nepalis."
+> "Imagine getting your first salary... and by the 20th of the month, it's all gone. In our survey of 30 young Nepalis, 76% had no formal budgeting system -- they either plan loosely in their head or don't plan at all. And 73% have postponed a financial decision simply because they didn't understand their options."
+
+> OR: Use a direct respondent quote -- "Before the end of my month, salary gets collapsed in unnecessary things, so I never thought about it." That's a real person in our survey. And they're not alone.
 
 **The Background:**
 - Nepal ranks **136th out of 144 countries** in global financial literacy (Thapa & Nepal, 2015)
