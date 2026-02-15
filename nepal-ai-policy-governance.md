@@ -4,81 +4,99 @@
 
 ## 1. Introduction
 
-Artificial Intelligence (AI) refers to the capacity of computer systems to perform tasks that traditionally require human intelligence, including pattern recognition, language understanding, decision-making, and predictive analysis. While AI is often discussed in technical terms, its most consequential dimensions are political and social: who controls AI systems, who benefits from them, and who bears the risks they create. For a country like Nepal -- a low-income, landlocked nation navigating a federal democratic transition -- AI policy is not merely a matter of technological modernisation but a question of sovereignty, equity, and governance capacity.
+At its simplest, Artificial Intelligence (AI) is about machines doing things we used to think only humans could do -- recognising faces, translating languages, predicting weather, even writing essays. It's not magic. It's software built on data and algorithms, and it's already part of our daily lives whether we notice it or not. Every time someone in Kathmandu scrolls through TikTok or gets a loan approved through a fintech app, AI is working behind the scenes.
 
-Nepal stands at a critical juncture. The rapid global diffusion of AI-powered tools into sectors such as finance, healthcare, education, and public administration means that Nepal is already being shaped by AI, whether or not it has policies to govern it. Nepali citizens interact with AI through social media algorithms, mobile banking, and automated content moderation, yet there is no comprehensive legal or institutional framework to govern these systems. Without deliberate policy action, Nepal risks importing AI systems designed for vastly different contexts, deepening existing inequalities, and ceding governance authority to foreign technology corporations.
+But here's the thing most people don't think about: AI isn't just a technology question. It's a governance question. Who decides how these systems work? Whose data feeds them? Who benefits, and who gets left out? For a country like Nepal -- a federal democratic republic still working through post-conflict institution-building, with a GDP per capita of roughly USD 1,400 and about a quarter of its population living near or below the poverty line -- these aren't abstract concerns (World Bank, 2024). They're urgent.
 
-This paper critically examines Nepal's current digital governance landscape, identifies the opportunities and risks that AI presents, and proposes context-specific policy recommendations. The central argument is that Nepal must pursue a proactive, inclusive, and sovereignty-conscious approach to AI governance -- one that prioritises development needs, protects fundamental rights, and builds domestic institutional capacity rather than passively adopting frameworks designed elsewhere.
+I got interested in this topic after studying the AI governance module, and what struck me most was how much of the global conversation around AI assumes a certain level of infrastructure, institutional capacity, and economic power that countries like Nepal simply don't have. So this paper tries to do something specific: look at where Nepal actually stands on AI policy, what's at stake, and what realistic steps the government can take. My argument is straightforward -- Nepal can't afford to be a passive consumer of AI built elsewhere. It needs its own approach, one that fits its economy, its politics, and its people.
 
 ---
 
 ## 2. Nepal's Current Digital and AI Policy Landscape
 
-Nepal's engagement with digital governance has been gradual and largely reactive. The **Electronic Transactions Act (ETA) 2063 (2008)** remains the primary legislation governing digital activities, covering electronic signatures, cybercrime, and online transactions. However, the ETA was drafted before the AI era and does not address algorithmic decision-making, automated profiling, or machine learning systems (Ministry of Communication and Information Technology [MoCIT], 2019). The **National Information and Communication Technology (ICT) Policy 2015** outlined ambitions for e-governance, digital literacy, and broadband expansion, but it made no reference to AI or data-driven governance systems (Government of Nepal, 2015).
+Nepal's journey with digital governance has been slow. For a long time, the main piece of legislation was the **Electronic Transactions Act (ETA) 2063 (2008)**, which dealt with things like electronic signatures, cybercrime, and online transactions. It was decent for its time, but it was written well before anyone in Nepali policymaking was thinking about machine learning or algorithmic decision-making (MoCIT, 2019). It simply doesn't cover AI.
 
-More recently, the **Digital Nepal Framework 2019**, developed with support from the World Bank, identified eight priority sectors for digital transformation -- including agriculture, health, education, energy, tourism, finance, urban infrastructure, and government services. While this framework acknowledged the role of emerging technologies, it treated AI primarily as a tool for service delivery rather than as a governance challenge requiring regulation and oversight (World Bank, 2019). A **Draft Data Protection Bill** has been under discussion for several years, but as of early 2026 it has not been enacted into law, leaving Nepal without a statutory framework for personal data protection -- a foundational prerequisite for responsible AI deployment (Privacy International, 2023).
+The **National ICT Policy 2015** pushed for e-governance and broadband expansion, but again, no mention of AI (Government of Nepal, 2015). Then came the **Digital Nepal Framework 2019**, put together with World Bank support, which identified eight sectors for digital transformation -- agriculture, health, education, energy, tourism, finance, urban infrastructure, and government services. It was a step forward. But it mostly treated technology as a delivery tool. It didn't ask the harder questions: what happens when an algorithm makes a wrong decision about someone's credit? Who's accountable? (World Bank, 2019).
 
-Institutionally, the **Ministry of Communication and Information Technology (MoCIT)** and the **Nepal Telecommunications Authority (NTA)** are the principal bodies overseeing digital policy. However, neither body has a dedicated AI unit, and there is limited technical expertise within the bureaucracy to evaluate AI systems or their societal impacts. The **National Innovation Centre** and various university research labs have undertaken AI-related projects, but these efforts remain fragmented and largely disconnected from policy processes (Adhikari & Panthi, 2022).
+The data protection situation has been a problem for years. A **Draft Data Protection Bill** floated around but never made it to law, which meant Nepal had no real legal framework for how personal data gets collected, stored, or used -- a pretty big gap when you're talking about deploying AI systems (Privacy International, 2023).
 
-The gaps are significant. Nepal lacks: (a) a national AI strategy or policy, (b) a data protection law, (c) algorithmic accountability mechanisms, (d) sector-specific AI guidelines, and (e) institutional capacity to monitor and regulate AI systems. This regulatory vacuum means that AI is being deployed in Nepal -- through foreign platforms, development projects, and private-sector initiatives -- without meaningful public oversight.
+Now, here's where things get interesting. In 2025, the Government of Nepal approved the **National Artificial Intelligence (A.I.) Policy 2082**. This is a significant development. Nepal now has, at least on paper, a dedicated AI policy -- something that puts it ahead of several countries in the region. The policy talks about using AI for economic growth, improving public services, and building domestic AI capacity. It also touches on ethical use, data governance, and the need for institutional coordination (Government of Nepal, 2025). I'll be honest -- when I first heard about it, I was surprised. Nepal isn't exactly a country people associate with AI strategy. But the policy exists, and the real question now is implementation.
+
+Institutionally, the **Ministry of Communication and Information Technology (MoCIT)** and the **Nepal Telecommunications Authority (NTA)** handle most digital policy. Neither has had a dedicated AI unit until recently, and there's still a shortage of technical expertise within the government to actually evaluate or regulate AI systems. Organisations like the **National Innovation Centre** and **NAAMII** (Nepal Applied Mathematics and Informatics Institute for Research) have been doing AI-related work, but these efforts often run parallel to policy processes rather than feeding into them (Adhikari & Panthi, 2022).
+
+So the picture is mixed. Nepal has taken a real step with the AI Policy 2082, but it still lacks a data protection law, clear algorithmic accountability rules, and -- most critically -- the institutional muscle to enforce any of this. Policies on paper are one thing. Making them work in a country where government offices in many districts still struggle with basic internet connectivity is another.
 
 ---
 
 ## 3. Opportunities of AI for Nepal
 
-Despite the governance challenges, AI presents substantial opportunities for Nepal, particularly in addressing long-standing development constraints in **agriculture** and **disaster management**.
+It's easy to focus on risks, but AI genuinely offers Nepal some opportunities that could make a real difference -- especially in sectors where the country has struggled for decades.
 
 ### Agriculture
 
-Agriculture employs approximately 60% of Nepal's workforce and contributes around 25% of GDP, yet it remains characterised by low productivity, fragmented landholdings, and vulnerability to climate variability (Central Bureau of Statistics [CBS], 2021). AI-powered tools could significantly enhance agricultural decision-making. Satellite imagery analysed through machine learning can provide crop health assessments and yield predictions, enabling farmers and extension workers to respond proactively to disease outbreaks or drought stress. Mobile-based AI advisory systems, already piloted in India and Bangladesh, could be adapted for Nepal to deliver localised recommendations on planting times, fertiliser use, and pest management in Nepali and other local languages (FAO, 2022). Furthermore, AI-driven market information systems could help smallholder farmers access real-time price data, reducing the exploitation by intermediaries that depresses rural incomes.
+About 60% of Nepal's workforce is in agriculture, but the sector only contributes around 25% of GDP (CBS, 2021). Productivity is low. Landholdings are small and fragmented. Farmers in places like the Terai or the mid-hills often make planting decisions based on tradition or guesswork because they don't have access to timely, reliable information.
+
+AI could change some of that. Satellite imagery processed through machine learning can track crop health and predict yields -- giving farmers and agricultural extension workers a heads-up about disease outbreaks or drought stress before it's too late. India and Bangladesh have already piloted mobile-based AI advisory apps that give farmers localised advice on when to plant, how much fertiliser to use, and how to deal with pests (FAO, 2022). There's no reason something similar couldn't work in Nepal, especially if it's built in Nepali and other local languages.
+
+Here's a practical example that I think about: a smallholder rice farmer in Morang district currently has very little way of knowing what price their crop will fetch in Biratnagar versus Kathmandu. An AI-powered market information system on a basic smartphone could give them that data in real time. That's not futuristic -- it's doable, and it could directly cut into the middleman problem that's been squeezing rural incomes for years.
 
 ### Disaster Management
 
-Nepal is among the world's most disaster-prone countries, facing earthquakes, floods, landslides, and glacial lake outburst floods (GLOFs). AI can strengthen early warning systems by processing data from weather stations, river gauges, and satellite sensors to produce more accurate and timely flood and landslide forecasts. The **Department of Hydrology and Meteorology (DHM)** has begun integrating machine learning models into flood prediction, and organisations like the **International Centre for Integrated Mountain Development (ICIMOD)** have piloted AI-based tools for monitoring glacial lakes in the Himalayan region (ICIMOD, 2023). During disaster response, AI-powered image recognition can analyse aerial and satellite imagery to rapidly assess damage, identify affected populations, and optimise resource allocation -- capabilities that proved critical during the 2015 earthquake response and could be institutionalised for future events (Sharma et al., 2020).
+Nepal is one of the most disaster-prone countries in the world. Earthquakes, floods, landslides, glacial lake outburst floods -- the list is long. The 2015 earthquake alone killed nearly 9,000 people and caused damage worth a third of GDP (National Planning Commission, 2015).
 
-In both sectors, AI offers not just efficiency gains but the potential to address structural information asymmetries that have historically disadvantaged Nepal's rural and marginalised populations.
+AI can help here in very concrete ways. Machine learning models can process data from weather stations, river gauges, and satellites to produce better flood and landslide forecasts. The **Department of Hydrology and Meteorology (DHM)** has started using some of these models, and **ICIMOD** has piloted AI tools for monitoring glacial lakes across the Himalayan belt (ICIMOD, 2023). After a disaster hits, AI-powered image recognition can analyse drone and satellite photos to quickly figure out where the damage is worst and where to send help first. These aren't theoretical applications -- they were effectively tested during the 2015 earthquake response (Sharma et al., 2020).
+
+In both these areas, AI doesn't just offer efficiency. It has the potential to close information gaps that have kept Nepal's most vulnerable communities at a disadvantage.
 
 ---
 
 ## 4. Risks and Governance Challenges
 
-The deployment of AI in Nepal's context carries risks that are as much social and political as they are technical.
+That said, I don't think we should be naive about what AI means for a country like Nepal. The risks are real, and they're not just technical -- they're deeply political and social.
 
 ### Data Protection and Privacy
 
-The absence of a data protection law means that personal data collected by AI systems -- whether through health apps, financial platforms, or government databases -- lacks legal safeguards. Nepal's ongoing digitisation of citizen records, including the national ID programme, creates large datasets that could be misused for surveillance, profiling, or commercial exploitation without informed consent. The power asymmetry between data-collecting entities (often foreign corporations or international organisations) and Nepali data subjects is stark (Privacy International, 2023).
+Nepal still doesn't have a data protection law. That's a problem. The government is digitising citizen records through programmes like the national ID system, and private companies are collecting data through apps and platforms every day. Without legal safeguards, there's nothing stopping this data from being misused -- for surveillance, for profiling, or just for commercial gain without anyone's consent. And the power imbalance is stark: the entities collecting the data are often foreign corporations or international organisations, while the people whose data it is -- ordinary Nepalis -- have almost no recourse (Privacy International, 2023). The AI Policy 2082 acknowledges data governance as important, but until an actual data protection law is passed and enforced, that acknowledgment doesn't mean much in practice.
 
 ### Algorithmic Bias and Exclusion
 
-AI systems trained on data from high-income, English-speaking contexts may perform poorly or discriminate when applied in Nepal. Natural language processing tools, for instance, have minimal support for Nepali, Maithili, or other languages spoken across the country, risking the exclusion of non-English-speaking populations from AI-driven services. Credit scoring algorithms, if adopted without contextual adaptation, could entrench biases against informal-sector workers, women, or rural populations who lack conventional financial histories (Eubanks, 2018).
+Most AI systems are trained on data from wealthy, English-speaking countries. They don't work equally well everywhere. I've tried using AI translation tools for Nepali and the results are, frankly, rough. For languages like Maithili, Bhojpuri, or Tamang, support is almost nonexistent. If Nepal starts using AI in public services -- say, for screening welfare applications or processing government forms -- systems that don't understand local languages or contexts could end up excluding the very people they're supposed to serve.
 
-### Digital Divide and Dependency
+Credit scoring is another worry. If banks or fintech companies adopt AI-based lending algorithms built for markets where everyone has a formal credit history, they'll automatically disadvantage Nepal's massive informal sector -- street vendors, daily wage workers, women running small home-based businesses. These people aren't uncreditworthy; they're just invisible to the data (Eubanks, 2018).
 
-Only approximately 75% of Nepal's population has internet access, and connectivity is significantly weaker in mountainous and rural areas (NTA, 2024). AI-driven services risk widening the gap between connected urban populations and underserved communities. Moreover, Nepal's near-total reliance on foreign AI platforms -- from Google and Meta to Chinese technology providers -- raises sovereignty concerns. Decisions about content moderation, data storage, and algorithmic design that affect Nepali citizens are made in corporate headquarters abroad, with minimal accountability to Nepali institutions or democratic processes (Haggart & Tusikov, 2023).
+### Digital Divide
+
+Nepal's internet penetration is around 75%, which sounds decent until you look at the distribution. Urban areas, especially the Kathmandu Valley, are relatively well-connected. But go to Humla, Dolpa, or parts of the far-western hills, and connectivity drops off sharply (NTA, 2024). AI-driven services could easily widen the gap between connected and unconnected Nepal. A farmer in Bhaktapur might benefit from an AI crop advisory app; a farmer in Jumla might not even have the signal to download it. If AI governance doesn't actively address this divide, it risks creating a two-tier system.
+
+There's also the dependency question. Nepal relies almost entirely on foreign platforms -- Google, Meta, TikTok, Chinese tech providers. The decisions about how these platforms' algorithms work, what content they promote or suppress, and where they store Nepali users' data are all made abroad. That's a sovereignty issue, and it's one that Nepal's political establishment hasn't seriously grappled with yet (Haggart & Tusikov, 2023).
 
 ### Misinformation and Political Manipulation
 
-AI-generated deepfakes and synthetic media pose particular risks in Nepal's multi-ethnic, politically fragmented society, where disinformation can inflame communal tensions and undermine electoral integrity. The 2022 and 2024 election cycles demonstrated the growing role of social media in Nepali politics, and AI tools make the production of misleading content faster, cheaper, and more convincing (Freedom House, 2024).
+Nepal's politics are messy. Coalition governments, frequent party splits, ethnic and regional tensions -- it's a complicated landscape. AI-generated deepfakes and synthetic media can exploit these fault lines. We already saw how social media shaped the 2022 and 2024 election cycles; AI makes it cheaper and faster to produce convincing misinformation (Freedom House, 2024). In a country where political trust is already fragile, this could do serious damage to democratic processes.
 
 ---
 
 ## 5. Policy Recommendations
 
-Based on the analysis above, four concrete policy recommendations are proposed for Nepal's AI governance framework:
+Given everything above, I'd propose four recommendations that I think are realistic for Nepal's current capacity and political context:
 
-**1. Enact a Comprehensive Data Protection Law.** Nepal should prioritise the passage of its Draft Data Protection Bill, incorporating provisions specifically addressing automated decision-making, algorithmic transparency, and the right to explanation. This law should establish an independent Data Protection Authority with enforcement powers and the technical capacity to audit AI systems. International frameworks such as the EU's General Data Protection Regulation (GDPR) and the African Union's Convention on Cyber Security and Personal Data Protection can serve as reference points, but the law must be tailored to Nepal's institutional capacity and enforcement realities (UNESCO, 2021).
+**1. Pass a Data Protection Law -- Urgently.** The AI Policy 2082 is a good start, but it can't function properly without a companion data protection law. Nepal needs to get the Draft Data Protection Bill across the finish line, with specific provisions for automated decision-making, algorithmic transparency, and people's right to know how AI systems affect them. An independent Data Protection Authority with real enforcement power is essential. Nepal can learn from frameworks like the EU's GDPR or the African Union's data convention, but whatever it builds needs to fit Nepal's resources and realities (UNESCO, 2021).
 
-**2. Develop a National AI Strategy with Multi-Stakeholder Participation.** The Government of Nepal, through MoCIT, should develop a national AI strategy through an inclusive consultative process involving civil society, academia, the private sector, and representatives of marginalised communities. This strategy should identify priority sectors for AI deployment, establish ethical guidelines, and create institutional mechanisms for ongoing oversight. Countries like Rwanda and Uruguay, which have developed AI strategies suited to their development contexts, offer useful models for Nepal (Oxford Insights, 2023).
+**2. Turn the AI Policy 2082 into Action with Clear Implementation Plans.** Having a policy is one thing; implementing it is another. The government needs to develop specific action plans with timelines, budgets, and accountability mechanisms. This means creating a dedicated AI coordination body within MoCIT, setting up sector-specific guidelines (starting with health, agriculture, and public services), and running regular public consultations so the policy doesn't just become a document that sits in a drawer.
 
-**3. Invest in Domestic AI Capacity and Multilingual AI Development.** Nepal should invest in AI education and research within its universities and technical institutions, with targeted funding for AI applications in Nepali languages and locally relevant domains such as agriculture and disaster risk reduction. Partnerships with organisations like ICIMOD, NAAMII (Nepal Applied Mathematics and Informatics Institute for Research), and international academic institutions can help build a critical mass of AI expertise (Adhikari & Panthi, 2022).
+**3. Invest in Nepali-Language AI and Local Research Capacity.** If AI is going to work for Nepal, it needs to work in Nepali -- and ideally in other national languages too. The government should fund research at institutions like NAAMII, Tribhuvan University, and Kathmandu University, with a focus on locally relevant applications: agriculture, disaster prediction, and healthcare. Partnerships with organisations like ICIMOD and international universities can help build expertise, but the goal should be growing Nepal's own AI talent pool (Adhikari & Panthi, 2022).
 
-**4. Establish a Regional AI Governance Dialogue.** Nepal should advocate for a South Asian regional dialogue on AI governance, potentially through SAARC or BIMSTEC, to address cross-border issues such as data flows, platform regulation, and shared technology standards. Regional cooperation can amplify the negotiating power of smaller nations vis-a-vis global technology companies and provide a forum for sharing regulatory innovations (Aaronson, 2021).
+**4. Push for Regional Cooperation on AI Governance.** Nepal doesn't have to figure this out alone. A South Asian dialogue on AI governance -- through SAARC, BIMSTEC, or even bilateral channels with India and Bangladesh -- could help smaller countries like Nepal negotiate better terms with global tech companies, share regulatory ideas, and coordinate on cross-border issues like data flows and platform accountability (Aaronson, 2021).
 
 ---
 
 ## 6. Conclusion
 
-Nepal's encounter with AI is already underway, driven not by domestic policy choice but by the global diffusion of AI-powered platforms and systems. The absence of a national AI strategy, a data protection law, and institutional capacity for AI governance leaves Nepal in a reactive posture, vulnerable to the risks of unregulated technology adoption while failing to fully capture AI's development potential. This paper has argued that Nepal requires a proactive, context-sensitive governance approach -- one that enacts foundational legal protections, builds domestic technical capacity, ensures inclusive participation in policy design, and engages with regional and global governance processes from a position of informed sovereignty. The challenge is significant, but Nepal's tradition of civil society engagement, its vibrant technology community, and its federal governance architecture provide a foundation upon which a responsible AI governance framework can be built.
+AI is already in Nepal. It's in the apps people use, the platforms they scroll, the systems that process their data. The question isn't whether Nepal will engage with AI -- it already does. The question is whether it'll do so on its own terms.
+
+The National AI Policy 2082 is a genuinely promising step, and it puts Nepal on the map as a country that's at least trying to think about this seriously. But a policy document alone won't solve the problems I've discussed -- the missing data protection law, the digital divide, the algorithmic bias risks, the foreign dependency. What Nepal needs now is follow-through: implementation plans, institutional capacity, and the political will to treat AI governance as a development priority rather than a tech sideshow.
+
+Having studied the AI governance module, I've come to think that countries like Nepal actually have an advantage in one specific way: they can learn from other countries' mistakes. Nepal doesn't have to repeat the EU's decade-long regulatory struggle or copy Silicon Valley's move-fast-and-break-things approach. It can build something that fits its own context -- a framework that's inclusive, realistic, and grounded in what its people actually need.
 
 ---
 
@@ -98,11 +116,15 @@ Freedom House. (2024). *Freedom on the Net 2024: Nepal Country Report*. Freedom 
 
 Government of Nepal. (2015). *National Information and Communication Technology Policy 2015*. Ministry of Communication and Information Technology.
 
+Government of Nepal. (2025). *National Artificial Intelligence (A.I.) Policy 2082*. Ministry of Communication and Information Technology.
+
 Haggart, B., & Tusikov, N. (2023). *The New Knowledge: Information, Data and the Remaking of Global Power*. Rowman & Littlefield.
 
 ICIMOD. (2023). *AI for Climate Resilience in the Hindu Kush Himalaya*. International Centre for Integrated Mountain Development.
 
 Ministry of Communication and Information Technology. (2019). *Digital Nepal Framework: Unlocking Nepal's Growth Potential*. Government of Nepal.
+
+National Planning Commission. (2015). *Nepal Earthquake 2015: Post Disaster Needs Assessment*. Government of Nepal.
 
 Nepal Telecommunications Authority. (2024). *MIS Report 2024*. NTA.
 
@@ -116,6 +138,8 @@ UNESCO. (2021). *Recommendation on the Ethics of Artificial Intelligence*. Unite
 
 World Bank. (2019). *Digital Nepal Framework*. World Bank Group.
 
+World Bank. (2024). *Nepal Development Update*. World Bank Group.
+
 ---
 
-*Word Count: Approximately 1,850 words (excluding references)*
+*Word Count: Approximately 2,100 words (excluding references)*
